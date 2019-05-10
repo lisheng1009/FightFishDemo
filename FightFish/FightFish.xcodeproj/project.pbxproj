@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1A721F802285390F00DDA53A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A721F7F2285390F00DDA53A /* AppDelegate.swift */; };
-		1A721F822285390F00DDA53A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A721F812285390F00DDA53A /* ViewController.swift */; };
 		1A721F852285390F00DDA53A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A721F832285390F00DDA53A /* Main.storyboard */; };
 		1A721F872285391100DDA53A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A721F862285391100DDA53A /* Assets.xcassets */; };
 		1A721F8A2285391100DDA53A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A721F882285391100DDA53A /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		1A721F7C2285390F00DDA53A /* FightFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FightFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A721F7F2285390F00DDA53A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A721F812285390F00DDA53A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A721F842285390F00DDA53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A721F862285391100DDA53A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A721F892285391100DDA53A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +52,69 @@
 		1A721F7E2285390F00DDA53A /* FightFish */ = {
 			isa = PBXGroup;
 			children = (
+				1A721F9122853B7A00DDA53A /* Classes */,
 				1A721F7F2285390F00DDA53A /* AppDelegate.swift */,
-				1A721F812285390F00DDA53A /* ViewController.swift */,
 				1A721F832285390F00DDA53A /* Main.storyboard */,
 				1A721F862285391100DDA53A /* Assets.xcassets */,
 				1A721F882285391100DDA53A /* LaunchScreen.storyboard */,
 				1A721F8B2285391100DDA53A /* Info.plist */,
 			);
 			path = FightFish;
+			sourceTree = "<group>";
+		};
+		1A721F9122853B7A00DDA53A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A721F9322853B7A00DDA53A /* Tools */,
+				1A721F9222853B7A00DDA53A /* Home */,
+				1A721F9722853B7A00DDA53A /* Main */,
+				1A721F9422853B7A00DDA53A /* Follow */,
+				1A721F9522853B7A00DDA53A /* Profile */,
+				1A721F9622853B7A00DDA53A /* Live */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1A721F9222853B7A00DDA53A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1A721F9322853B7A00DDA53A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1A721F9422853B7A00DDA53A /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		1A721F9522853B7A00DDA53A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1A721F9622853B7A00DDA53A /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		1A721F9722853B7A00DDA53A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +188,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A721F822285390F00DDA53A /* ViewController.swift in Sources */,
 				1A721F802285390F00DDA53A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDNTY5RN3B;
 				INFOPLIST_FILE = FightFish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDNTY5RN3B;
 				INFOPLIST_FILE = FightFish/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
